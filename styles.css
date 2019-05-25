@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 400px auto;
+    padding: 10px;
+    
+}
+
+h1, h3, form{
+    padding: 10px;
+    text-align: center;
+    color: rgb(87, 87, 86);
+}
+
+input{
+    height: 40px;
+    width: 25%;
+    text-align: center;
+}
+
+input[type=text]{
+    border: none;
+    font-size: 16px;
+    line-height: 1.5px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    font-size: 18px;
+    width: 18%;
+    line-height: 1.5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#resultField{
+    font-weight: 500;
+    color: red;
+    text-align: center;
+}
+
+
